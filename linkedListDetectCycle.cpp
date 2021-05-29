@@ -9,6 +9,8 @@ struct Node
 
 // The fast and slow algorithm is called as Floyds tortoise and hare algorithm.
 // one counter runs at a double pace and the other at a slower pace.
+// Time complexit is O(n) because the worst case is to wait for the slow counter
+// to complete the loop.
 Node *next(Node *node)
 {
   if (node)
