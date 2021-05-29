@@ -151,3 +151,5 @@ Eg - [1,2,3,4,5] - Search for an element using an Algo.
 * Insert with the node address given - O(1).
 
 ### Circular linked lists
+
+* It is a simple singly linked list whose last node just points to the head node again.
