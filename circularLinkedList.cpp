@@ -18,7 +18,7 @@ void insertNode(Node *head, Node *nodeToInsert, int position)
 {
   Node *temp = head->next;
 
-  for (int i = 0; i < position-1; i++)
+  for (int i = 0; i < position - 1; i++)
   {
     // When we reach the end of the list and again point to the first element.
     // then add the node in the end.
@@ -34,11 +34,13 @@ void insertNode(Node *head, Node *nodeToInsert, int position)
   return;
 }
 
-void deleteNode(Node *head, Node *nodeToDelete){
+void deleteNode(Node *head, Node *nodeToDelete)
+{
 
   Node *temp = head->next;
 
-  while(temp->next != nodeToDelete){
+  while (temp->next != nodeToDelete)
+  {
     temp = temp->next;
   }
 
@@ -51,19 +53,14 @@ void printNode(Node *head)
 {
   Node *temp = head->next;
 
-  while (temp->next != head->next)
+  do
   {
     cout << temp->data << endl;
     temp = temp->next;
-  }
+  } while (temp != head->next);
 
   if (temp == head)
   {
-    cout << "End of list." << endl;
-  }
-  else
-  {
-    cout << temp->data << endl;
     cout << "End of list." << endl;
   }
 }
@@ -83,7 +80,7 @@ int main()
   second->next = third;
   third->next = first;
 
-  Node* nodeToInsert = new Node(30);
+  Node *nodeToInsert = new Node(30);
   insertNode(head, nodeToInsert, 2);
 
   deleteNode(head, third);

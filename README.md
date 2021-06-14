@@ -30,6 +30,14 @@
   * Forget algorithm and consider only input and output.
 * Don't panic when there is a bug, just take a moment and think about the place of origination.
 
+## Data structure and programming languages
+
+| Data Structure | Python | C++         |
+| -------------- | ------ | ----------- |
+| Array          | List   | Native array|
+| Hash table     | dict   | std::map    |
+| Linked List    | NA     | Linked list |
+
 ## Generic
 
 * Tips to build logic for a given problem.
@@ -153,3 +161,4 @@ Eg - [1,2,3,4,5] - Search for an element using an Algo.
 ### Circular linked lists
 
 * It is a simple singly linked list whose last node just points to the head node again.
+* 

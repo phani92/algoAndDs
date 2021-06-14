@@ -1,9 +1,9 @@
 #include <iostream>
+#include <set>
 using namespace std;
 
 long substringCalculator(string s)
 {
-
   // We can solve the problem by creating a hashset of the distinct substrings.
   set<string> substringSet;
 
