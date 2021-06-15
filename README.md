@@ -161,4 +161,16 @@ Eg - [1,2,3,4,5] - Search for an element using an Algo.
 ### Circular linked lists
 
 * It is a simple singly linked list whose last node just points to the head node again.
-* 
+
+### Stacks
+
+* It is a linear data structure and follows LIFO.
+* Functions are also normally stacked during execution.
+* Another application is for parenthesis matching.
+* It is an abstract data type.
+* It can be implemented using array or linked list.
+* operations on stacks:
+  * push
+  * pop
+  * peek(index)
+  * isEmpty() / isFull()
